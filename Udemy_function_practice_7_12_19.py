@@ -203,7 +203,7 @@ def blackjack(bj_values = [], *args):
             return 'BUST'
         elif sum_bj <= 21:
             return sum_bj
-    elif sum_bj > 21and ace == 0:
+    elif sum_bj > 21 and ace == 0:
         return 'BUST'
 
 bj_args = input("Enter three numbers, 1-11 to recive your BlackJack score: ").split(' ')
